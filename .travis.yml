@@ -1,0 +1,8 @@
+sudo:       required
+language:   generic
+services:   docker
+
+script:
+  - pwd
+  - ls
+  - docker run --rm --user="$(id -u):$(id -g)" -v "$PWD":"/repo" -w "/repo" dockershelf/latex:full /bin/sh -c "pwd;ls;latexmk -xelatex -interaction=nonstopmode test.tex"
