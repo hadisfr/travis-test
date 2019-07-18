@@ -2,7 +2,7 @@ GitHub & Travis Docker-based Build & Deploy Integration
 ---
 
 [![GitHub release](https://img.shields.io/github/release/hadisfr/travis-test.svg?style=flat-square)](https://github.com/hadisfr/travis-test/releases/latest)
-[![Travis (.com)](https://img.shields.io/travis/hadisfr/travis-test.svg?style=flat-square)](https://travis-ci.com/hadisfr/travis-test)
+[![Travis (.com)](https://img.shields.io/travis/com/hadisfr/travis-test.svg?style=flat-square)](https://travis-ci.com/hadisfr/travis-test)
 
 Use `-v` or `--volume` flag in docker run to to bind mount a volume,
 and `-w` or `--workdir` flag to set working directory.
